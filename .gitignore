@@ -1,0 +1,6 @@
+# Carpetas y archivos de desarrollo y pruebas locales
+scratch/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini

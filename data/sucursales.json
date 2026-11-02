@@ -1,0 +1,25 @@
+{
+  "tituloModulo": "Ubicación y Sede Principal",
+  "modoUnicaSede": true,
+  "descripcion": "Instalaciones de Corporación Ayala S.A.C., con taller propio de habilitación metalmecánica y oficinas comerciales en Ate, Lima.",
+  "sucursales": [
+    {
+      "id": "sede-ate-principal",
+      "nombre": "Sede Principal y Taller Metalmecánico",
+      "tipo": "Taller de Producción y Oficina Comercial",
+      "direccion": "Mz. B, Lote 11, Urb. Parcela Semirústica Zavaleta, Ate, Lima, Perú",
+      "referencia": "Cruce Av. Metropolitana y Av. Separadora Industrial, zona industrial de Ate con acceso para transporte pesado.",
+      "horario": "Lunes a Viernes: 8:00 AM - 6:00 PM | Sábados: 8:00 AM - 1:00 PM",
+      "telefonoFijo": "(01) 494-1053",
+      "celulares": ["994 100 704", "981 073 892"],
+      "telefono": "(01) 494-1053 / 994 100 704",
+      "correo": "contacto@corporacionayalasac.com",
+      "imagen": "assets/images/ayala-corte-doblez-real.jpg",
+      "tipoImagen": "real",
+      "etiquetaFoto": "Maquinaria Real en Taller Ate",
+      "enlaceMapa": "https://maps.google.com/?q=Mz+B+Lt+11+Urb+Parcela+Semirustica+Zavaleta+Ate+Lima",
+      "mapaEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8973686867625!2d-76.92408332415175!3d-12.049444488187807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6a51cecfbd1%3A0xc3c5b8b9c2b4c10a!2sAte%2C%20Lima!5e0!3m2!1ses!2spe!4v1700000000000!5m2!1ses!2spe",
+      "confirmada": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "corte-doblez",
+    "titulo": "Servicio Corte y Doblez",
+    "subtitulo": "Máquinas Hidráulicas de Corte y Plegado a Medida",
+    "icono": "scissors",
+    "imagen": "assets/images/ayala-corte-doblez-real.jpg",
+    "esFotoReal": true,
+    "etiquetaFoto": "Taller Ayala - Maquinaria Real",
+    "resumen": "Nuestra división cuenta con máquinas hidráulicas diseñadas para realizar diferentes tipos de corte y doblez, adaptándose a la necesidad del cliente.",
+    "descripcionCompleta": "En Corporación Ayala contamos con cizallas y plegadoras hidráulicas de alta capacidad, junto con tecnología para oxicorte y plasma CNC. Nuestro equipo de técnicos está plenamente capacitado para desarrollar cualquier tipo de corte y doblez que requiera el proyecto, garantizando tolerancias dimensionales exactas y optimización del material.",
+    "capacidades": [
+      "Máquinas hidráulicas de corte y doblez de gran longitud",
+      "Corte por cizalla y guillotina para platinas y planchas de acero",
+      "Plegado y conformado en diferentes radios y ángulos",
+      "Corte térmico por plasma CNC y oxicorte para espesores pesados",
+      "Lectura directa de planos en AutoCAD (.DWG, .DXF) o croquis de taller"
+    ],
+    "ventajas": [
+      "Equipamiento propio instalado en nuestra sede de Ate",
+      "Flexibilidad para piezas individuales o producción seriada",
+      "Acabado limpio listo para procesos de ensamble o soldadura"
+    ]
+  },
+  {
+    "id": "estructuras-metalicas",
+    "titulo": "Estructuras Metálicas",
+    "subtitulo": "Estructuras Livianas, Semipesadas y Pesadas",
+    "icono": "box",
+    "imagen": "assets/images/ayala-estructuras-real.jpg",
+    "esFotoReal": true,
+    "etiquetaFoto": "Proyecto Real Ayala",
+    "resumen": "Nuestra división cuenta con profesionales con amplia experiencia en el diseño, fabricación y montaje de acuerdo a normas técnicas nacionales e internacionales.",
+    "descripcionCompleta": "Desarrollamos soluciones estructurales para almacenes, centros comerciales, naves industriales, centros mineros y edificaciones en general. Realizamos la habilitación de vigas principales, pórticos, columnas compuestas y tijerales, cumpliendo estrictamente con los códigos de diseño y seguridad vigentes.",
+    "capacidades": [
+      "Fabricación de estructuras livianas, semipesadas y pesadas",
+      "Armado de tijerales, pórticos reticulados y vigas compuestas",
+      "Montaje en obra con personal técnico calificado y equipos de izaje",
+      "Control de escuadría y alineamiento dimensional riguroso",
+      "Aplicación de normas técnicas peruanas (RNE) y estándares internacionales (AISC, AWS)"
+    ],
+    "ventajas": [
+      "Equipo multidisciplinario con comprobada experiencia en obra",
+      "Capacidad técnica para proyectos de gran envergadura",
+      "Cumplimiento disciplinado del cronograma pactado"
+    ]
+  },
+  {
+    "id": "coberturas-cerramiento",
+    "titulo": "Coberturas y Cerramiento",
+    "subtitulo": "Naves Industriales, Campamentos y Minería",
+    "icono": "layers",
+    "imagen": "assets/images/ayala-coberturas-real.jpg",
+    "esFotoReal": true,
+    "etiquetaFoto": "Proyecto Real Ayala",
+    "resumen": "Diseño, selección y montaje de coberturas y cerramientos en naves industriales, campamentos, centros comerciales y minería de acuerdo a normas técnicas.",
+    "descripcionCompleta": "Ofrecemos sistemas integrales de cerramiento metálico y cubiertas para protección climática y durabilidad estructural. Instalamos coberturas curvas, dos aguas, paneles termoaislantes, correas de fijación y accesorios de evacuación pluvial.",
+    "capacidades": [
+      "Montaje de coberturas para naves industriales y techos parabólicos",
+      "Instalación de cerramientos perimetrales metálicos y paneles sándwich",
+      "Habilitación de correas estructurales tipo C y Z con anclajes apernados",
+      "Sellado perimetral y elementos de remate arquitectónico",
+      "Montaje seguro bajo rigurosos estándares de seguridad y salud en el trabajo"
+    ],
+    "ventajas": [
+      "Protección anticorrosiva de larga vida útil",
+      "Instalación rápida que acelera los tiempos de entrega de la edificación",
+      "Adaptabilidad a diferentes climas y requerimientos térmicos"
+    ]
+  },
+  {
+    "id": "carpinteria-metalica",
+    "titulo": "Carpintería Metálica",
+    "subtitulo": "Fierro y Acero Inoxidable para Edificaciones",
+    "icono": "award",
+    "imagen": "assets/images/ayala-carpinteria-real.jpg",
+    "esFotoReal": true,
+    "etiquetaFoto": "Proyecto Real Ayala",
+    "resumen": "Diseño, fabricación y montaje de carpintería metálica en viviendas, edificios financieros, centros empresariales, comerciales e industrias.",
+    "descripcionCompleta": "Ejecutamos trabajos de alta precisión estética y estructural en acero al carbono y acero inoxidable. Fabricamos barandas arquitectónicas, pasamanos, escaleras de evacuación, puertas cortafuego, rejas de seguridad y estructuras auxiliares para acabados de primer nivel.",
+    "capacidades": [
+      "Barandas y pasamanos de acero inoxidable pulido o satinado",
+      "Escaleras metálicas helicoidales, rectas y de emergencia",
+      "Portones industriales, cerramientos de seguridad y rejas decorativas",
+      "Acabados con soldadura TIG pulida y tratamientos anticorrosivos",
+      "Atención a proyectos residenciales, bancarios, comerciales y corporativos"
+    ],
+    "ventajas": [
+      "Calidad en uniones y pulido de alta exigencia estética",
+      "Materiales certificados resistentes a la intemperie",
+      "Instalación limpia y coordinada con la contratista principal"
+    ]
+  }
+]

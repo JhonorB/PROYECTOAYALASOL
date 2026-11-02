@@ -1,0 +1,65 @@
+{
+  "titulo": "Sobre Corporación Ayala S.A.C.",
+  "subtitulo": "Fabricamos, desarrollamos proyectos de estructura metálica y habilitamos material.",
+  "presentacion": {
+    "parrafo1": "En Corporación Ayala S.A.C. nos dedicamos a la fabricación y desarrollo de proyectos de estructuras metálicas y a la habilitación integral de material para los sectores de infraestructura, industria, comercio y minería.",
+    "parrafo2": "Con sede en Ate, Lima, contamos con divisiones especializadas en Estructuras Metálicas (livianas, semipesadas y pesadas de acuerdo a normas técnicas nacionales e internacionales), Coberturas y Cerramiento, Servicio de Corte y Doblez con maquinaria hidráulica, y Carpintería Metálica de alta exigencia en fierro y acero inoxidable.",
+    "mision": "Fabricar y desarrollar proyectos metalmecánicos con altos estándares de calidad, resistencia y precisión, brindando a cada cliente soluciones a medida para sus obras mediante tecnología propia de corte, doblado y ensamble.",
+    "valores": [
+      {
+        "titulo": "Cumplimiento de Normas",
+        "descripcion": "Fabricación y montaje bajo códigos técnicos nacionales (RNE) e internacionales (AISC, AWS)."
+      },
+      {
+        "titulo": "Equipamiento Propio",
+        "descripcion": "Máquinas hidráulicas de corte y doblado operadas por técnicos capacitados."
+      },
+      {
+        "titulo": "Atención Multidisciplinaria",
+        "descripcion": "Soluciones para naves industriales, centros comerciales, minería y edificaciones."
+      },
+      {
+        "titulo": "Compromiso de Obra",
+        "descripcion": "Coordinación técnica estrecha para cumplir los cronogramas de entrega y montaje."
+      }
+    ]
+  },
+  "formaDeTrabajo": [
+    {
+      "paso": "01",
+      "titulo": "Revisión de Planos y Requerimiento",
+      "detalle": "Análisis de especificaciones técnicas, cálculo de perfiles, placas de anclaje y cubicación de material."
+    },
+    {
+      "paso": "02",
+      "titulo": "Corte y Doblez en Taller",
+      "detalle": "Habilitación en máquinas hidráulicas y corte de precisión según las tolerancias requeridas."
+    },
+    {
+      "paso": "03",
+      "titulo": "Fabricación y Soldadura Calificada",
+      "detalle": "Unión y ensamble de componentes estructurales, tijerales o piezas de carpintería metálica."
+    },
+    {
+      "paso": "04",
+      "titulo": "Control Dimensional y Montaje",
+      "detalle": "Verificación final en taller y coordinación de despacho o montaje en obra según el alcance contratado."
+    }
+  ],
+  "galeriaInstalaciones": [
+    {
+      "titulo": "Taller de Corte y Doblez Hidráulico",
+      "descripcion": "Maquinaria hidráulica de corte y plegado en nuestras instalaciones de Ate, Lima.",
+      "imagen": "assets/images/ayala-corte-doblez-real.jpg",
+      "esEspacioProvisional": false,
+      "etiqueta": "Fotografía Real de Taller Ayala"
+    },
+    {
+      "titulo": "Montaje de Estructuras y Coberturas",
+      "descripcion": "Técnicos calificados en montaje de tijerales, pórticos y cerramientos industriales.",
+      "imagen": "assets/images/ayala-coberturas-real.jpg",
+      "esEspacioProvisional": false,
+      "etiqueta": "Fotografía Real de Obra Ayala"
+    }
+  ]
+}

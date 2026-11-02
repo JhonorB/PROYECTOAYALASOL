@@ -1,0 +1,46 @@
+{
+  "empresa": {
+    "nombre": "Corporación Ayala S.A.C.",
+    "siglas": "Ayala",
+    "ruc": "20535988111",
+    "rubro": "Cortes metálicos, venta de placas industriales, soldadura y estructuras metálicas",
+    "eslogan": "Fabricamos, desarrollamos proyectos de estructura metálica y habilitamos material.",
+    "descripcionCorta": "En Corporación Ayala fabricamos y desarrollamos proyectos de estructuras metálicas livianas, semipesadas y pesadas, coberturas, carpintería metálica en acero inoxidable y servicio especializado de corte y doblez.",
+    "telefonoFijo": "(01) 494-1053",
+    "telefono": "(01) 494-1053",
+    "telefonoLlamadas": "tel:+5114941053",
+    "celulares": ["+51 994 100 704", "+51 981 073 892"],
+    "celularPrincipal": "+51 994 100 704",
+    "celularSecundario": "+51 981 073 892",
+    "whatsapp": "51994100704",
+    "whatsappSecundario": "51981073892",
+    "whatsappTextoPredeterminado": "Hola, Corporación Ayala. Deseo consultar sobre proyectos de estructura metálica, habilitado de placas y servicios de corte y doblez.",
+    "whatsappHabilitado": true,
+    "correo": "contacto@corporacionayalasac.com",
+    "correoVentas": "ventas@corporacionayalasac.com",
+    "direccion": "Mz. B, Lote 11, Urb. Parcela Semirústica Zavaleta, Ate, Lima, Perú",
+    "horario": "Lunes a Viernes: 8:00 AM - 6:00 PM | Sábados: 8:00 AM - 1:00 PM",
+    "mapaEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8973686867625!2d-76.92408332415175!3d-12.049444488187807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6a51cecfbd1%3A0xc3c5b8b9c2b4c10a!2sAte%2C%20Lima!5e0!3m2!1ses!2spe!4v1700000000000!5m2!1ses!2spe",
+    "mapaEnlace": "https://maps.google.com/?q=Mz+B+Lt+11+Urb+Parcela+Semirustica+Zavaleta+Ate+Lima"
+  },
+  "configuracion": {
+    "mostrarBotonWhatsappFlotante": true,
+    "tituloModuloSucursales": "Ubicación y Sede",
+    "esModoSucursalesUnica": true,
+    "permitirCopiarMensaje": true,
+    "colores": {
+      "azulMarino": "#06275E",
+      "azulOscuro": "#03173B",
+      "rojoAcento": "#E00820",
+      "rojoHover": "#C0061A",
+      "grisAcero": "#697680",
+      "blanco": "#FFFFFF",
+      "grisClaro": "#F3F5F7"
+    }
+  },
+  "redesSociales": [
+    { "nombre": "LinkedIn", "icono": "linkedin", "url": "https://www.linkedin.com/" },
+    { "nombre": "Facebook", "icono": "facebook", "url": "https://www.facebook.com/" },
+    { "nombre": "WhatsApp", "icono": "whatsapp", "url": "https://wa.me/51994100704" }
+  ]
+}

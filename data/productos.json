@@ -1,0 +1,183 @@
+{
+  "categorias": [
+    {
+      "id": "placas-industriales",
+      "nombre": "Placas Industriales",
+      "descripcion": "Placas estructurales de asiento, anclaje, bridas y cartelas cortadas y perforadas a medida.",
+      "confirmada": true
+    },
+    {
+      "id": "perfiles-vigas",
+      "nombre": "Perfiles y Vigas",
+      "descripcion": "Vigas IPE, H, perfiles UPN, ángulos y platinas para habilitación estructural.",
+      "confirmada": false,
+      "mensajeProvisional": "Categoría en preparación. Se incorporará la información técnica y stock confirmado por Corporación Ayala."
+    },
+    {
+      "id": "planchas-acero",
+      "nombre": "Planchas de Acero",
+      "descripcion": "Planchas laminadas en caliente LAC, estriadas y antideslizantes de diversos calibres.",
+      "confirmada": false,
+      "mensajeProvisional": "Categoría en preparación. Próximamente catálogo completo de planchas comerciales e industriales."
+    },
+    {
+      "id": "tubos-estructurales",
+      "nombre": "Tubería Estructural",
+      "descripcion": "Tubos cuadrados, rectangulares y redondos para tijerales y carpintería metálica pesada.",
+      "confirmada": false,
+      "mensajeProvisional": "Categoría en preparación para incorporar medidas de stock comercial."
+    }
+  ],
+  "productos": [
+    {
+      "id": "prod-placa-base-a36",
+      "nombre": "Placa Base Estructural ASTM A36",
+      "categoriaId": "placas-industriales",
+      "categoriaNombre": "Placas Industriales",
+      "descripcionCorta": "Placa de asiento para fijación de columnas metálicas sobre pedestales de concreto.",
+      "descripcionLarga": "Placa de acero al carbono laminado en caliente ASTM A36, dimensionada para transmitir cargas axiales y momentos flectores desde columnas estructurales a las cimentaciones. Incluye 4 perforaciones circulares para anclaje con pernos de alta resistencia.",
+      "imagen": "assets/images/placa-base-a36.jpg",
+      "tipoImagen": "referencia",
+      "etiquetaTipoImagen": "Referencia Técnica",
+      "destacado": true,
+      "especificaciones": {
+        "Norma / Material": "Acero estructural ASTM A36",
+        "Espesores Disponibles": "1/4\" (6.35 mm) a 2\" (50.8 mm)",
+        "Dimensiones": "A medida según plano (Ej: 300x300, 400x400, 500x500 mm)",
+        "Perforaciones": "4 barrenos para pernos de 5/8\", 3/4\", 7/8\" o 1\"",
+        "Tolerancia de Corte": "±1.0 mm en corte plasma HD",
+        "Acabado": "Bordes desbarbados, libre de escoria, listo para soldar o pintar"
+      },
+      "aplicaciones": [
+        "Fijación de columnas en naves industriales y almacenes",
+        "Estructuras metálicas de centros comerciales y edificios",
+        "Pedestales de maquinaria y soportes de tubería pesada"
+      ]
+    },
+    {
+      "id": "prod-cartela-tijeral",
+      "nombre": "Placa de Unión Tipo Cartela (Gusset Plate)",
+      "categoriaId": "placas-industriales",
+      "categoriaNombre": "Placas Industriales",
+      "descripcionCorta": "Placa nodal para empalme y encuentro de perfiles en tijerales, celosías y pórticos.",
+      "descripcionLarga": "Placa de forma poligonal o trapezoidal fabricada mediante corte por plasma CNC de alta definición. Permite la convergencia y fijación de diagonales, montantes y bridas en armaduras reticuladas.",
+      "imagen": "assets/images/cartela-union.jpg",
+      "tipoImagen": "referencia",
+      "etiquetaTipoImagen": "Referencia Técnica",
+      "destacado": true,
+      "especificaciones": {
+        "Norma / Material": "ASTM A36 / ASTM A572 Grado 50",
+        "Espesores Disponibles": "3/16\", 1/4\", 5/16\", 3/8\", 1/2\"",
+        "Dimensiones": "Geometría libre según archivo CAD / DWG / DXF",
+        "Patrón de Pernos": "Perforaciones alineadas según diseño estructural",
+        "Tolerancia": "±0.8 mm en centros entre agujeros",
+        "Acabado": "Bordes limpios sin rebaba"
+      },
+      "aplicaciones": [
+        "Nudos de tijerales para coberturas industriales",
+        "Arriostramientos concéntricos y excéntricos",
+        "Vigas de celosía para puentes grúa"
+      ]
+    },
+    {
+      "id": "prod-placa-ranurada-ajustable",
+      "nombre": "Placa Ranurada con Agujeros Rasgados (Slot Holes)",
+      "categoriaId": "placas-industriales",
+      "categoriaNombre": "Placas Industriales",
+      "descripcionCorta": "Placa con perforaciones oblongas que absorbe tolerancias de montaje y dilatación.",
+      "descripcionLarga": "Diseñada especialmente para conexiones apernadas que requieren margen de ajuste milimétrico durante el montaje en obra o para permitir el desplazamiento por dilatación térmica en estructuras de gran longitud.",
+      "imagen": "assets/images/placa-ranurada.jpg",
+      "tipoImagen": "referencia",
+      "etiquetaTipoImagen": "Referencia Técnica",
+      "destacado": true,
+      "especificaciones": {
+        "Norma / Material": "Acero estructural ASTM A36",
+        "Espesores Disponibles": "5/16\", 3/8\", 1/2\", 5/8\", 3/4\"",
+        "Tipo de Ranura": "Ranura corta (Short Slot) o ranura larga (Long Slot)",
+        "Dimensiones": "Fabricación sobre plano de taller",
+        "Tolerancia": "Corte CNC suave para deslizamiento parejo del perno",
+        "Acabado": "Desbarbado mecánico perimetral"
+      },
+      "aplicaciones": [
+        "Juntas de expansión y dilatación en naves industriales",
+        "Montaje de rieles y correas de cerramiento",
+        "Conexiones ajustables de fachada y techos"
+      ]
+    },
+    {
+      "id": "prod-brida-circular-acero",
+      "nombre": "Brida y Placa Circular de Acero Perforada",
+      "categoriaId": "placas-industriales",
+      "categoriaNombre": "Placas Industriales",
+      "descripcionCorta": "Placa circular con barreno concéntrico y distribución radial de pernos.",
+      "descripcionLarga": "Habilitada mediante corte por oxicorte o plasma CNC con control circular preciso. Utilizada como base de sustentación para postes de alumbrado, mástiles de telecomunicaciones, bridas ciegas o acoples para tuberías industriales.",
+      "imagen": "assets/images/brida-circular.jpg",
+      "tipoImagen": "referencia",
+      "etiquetaTipoImagen": "Referencia Técnica",
+      "destacado": false,
+      "especificaciones": {
+        "Norma / Material": "ASTM A36 / Acero al Carbono",
+        "Espesores Disponibles": "3/8\" hasta 1 1/2\"",
+        "Diámetros Exteriores": "150 mm hasta 1200 mm de diámetro",
+        "Distribución de Pernos": "Corona de 4, 6, 8, 12 o 16 agujeros concéntricos",
+        "Tolerancia": "±1.0 mm de concentricidad",
+        "Acabado": "Biselado opcional para soldadura de penetración"
+      },
+      "aplicaciones": [
+        "Bases circulares para postes de iluminación y torres",
+        "Tapas y bridas para tanques industriales y tolvas",
+        "Acoples mecánicos de maquinaria pesada"
+      ]
+    },
+    {
+      "id": "prod-placa-empalme-momento",
+      "nombre": "Placa de Empalme para Vigas (Splice Plate)",
+      "categoriaId": "placas-industriales",
+      "categoriaNombre": "Placas Industriales",
+      "descripcionCorta": "Juego de placas para unión apernada de continuidad en alma y alas de vigas de acero.",
+      "descripcionLarga": "Placas de alta resistencia diseñadas para empalmes viga-viga en obra sin necesidad de soldadura en campo. Con patrón de barrenos de precisión para pernos estructurales ASTM A325 o A490.",
+      "imagen": "assets/images/placa-empalme.jpg",
+      "tipoImagen": "referencia",
+      "etiquetaTipoImagen": "Referencia Técnica",
+      "destacado": true,
+      "especificaciones": {
+        "Norma / Material": "ASTM A572 Grado 50 / ASTM A36",
+        "Espesores Disponibles": "3/8\", 1/2\", 5/8\", 3/4\"",
+        "Dimensiones": "Adaptadas al perfil (IPE 200 a IPE 600, series W y H)",
+        "Perforaciones": "Patrón estandarizado para pernos de 3/4\" y 7/8\"",
+        "Tolerancia": "±0.5 mm entre centros para ensamble perfecto",
+        "Acabado": "Superficie granallada o natural de laminación"
+      },
+      "aplicaciones": [
+        "Empalmes de transporte de vigas de gran longitud",
+        "Uniones rígidas viga-columna en edificios aporticados",
+        "Reparación y reforzamiento de pórticos existentes"
+      ]
+    },
+    {
+      "id": "prod-placa-rigidizadora-aleta",
+      "nombre": "Placas Rigidizadoras y Atiesadores (Stiffeners)",
+      "categoriaId": "placas-industriales",
+      "categoriaNombre": "Placas Industriales",
+      "descripcionCorta": "Placas rectangulares con chaflán para refuerzo de alma en vigas y columnas.",
+      "descripcionLarga": "Atiesadores metálicos cortados a escuadra perfecta con chaflán en las esquinas interiores para librar el cordón de soldadura del perfil. Incrementan drásticamente la capacidad de carga frente a pandeo localizado.",
+      "imagen": "assets/images/placa-atiesador.jpg",
+      "tipoImagen": "referencia",
+      "etiquetaTipoImagen": "Referencia Técnica",
+      "destacado": false,
+      "especificaciones": {
+        "Norma / Material": "ASTM A36",
+        "Espesores Disponibles": "1/4\", 5/16\", 3/8\", 1/2\", 5/8\"",
+        "Dimensiones": "A la medida exacta de la altura libre del alma",
+        "Detalle de Esquinas": "Chaflán de 25x25 mm o 30x30 mm para paso de soldadura",
+        "Tolerancia": "±0.8 mm para ajuste exacto entre patines",
+        "Acabado": "Canto recto pulido"
+      },
+      "aplicaciones": [
+        "Zonas de apoyo de vigas maestras y puentes grúa",
+        "Nudos de pórticos sometidos a momento sísmico",
+        "Refuerzo de vigas carril y ménsulas industriales"
+      ]
+    }
+  ]
+}

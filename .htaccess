@@ -1,0 +1,47 @@
+# ==============================================================================
+# CORPORACIÓN AYALA S.A.C. - CONFIGURACIÓN PARA HOSTING COMPARTIDO (APACHE / CPANEL)
+# ==============================================================================
+
+# 1. UTF-8 por defecto
+AddDefaultCharset UTF-8
+
+# 2. Tipos MIME para JSON, SVG y fuentes modernas
+<IfModule mod_mime.c>
+  AddType application/json .json
+  AddType image/svg+xml .svg .svgz
+  AddEncoding gzip .svgz
+  AddType font/woff2 .woff2
+  AddType font/woff .woff
+</IfModule>
+
+# 3. Compresión Gzip / Deflate para carga ultra rápida
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+  AddOutputFilterByType DEFLATE application/javascript application/json
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# 4. Políticas de Caché para archivos estáticos
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/json "access plus 0 seconds"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
+
+# 5. Seguridad básica de cabeceras
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# 6. Opciones de directorio
+Options -Indexes
+DirectoryIndex index.html index.php

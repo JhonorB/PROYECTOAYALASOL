@@ -1,0 +1,49 @@
+{
+  "categorias": [
+    { "id": "todos", "nombre": "Todos los Artículos" },
+    { "id": "materiales", "nombre": "Materiales" },
+    { "id": "procesos", "nombre": "Procesos" },
+    { "id": "consejos", "nombre": "Consejos" }
+  ],
+  "articulos": [
+    {
+      "id": "criterios-seleccion-acero-astm-a36-a572",
+      "titulo": "Guía de Selección de Aceros Estructurales: ¿Cuándo utilizar ASTM A36 vs. ASTM A572 Grado 50?",
+      "slug": "criterios-seleccion-acero-astm-a36-a572",
+      "categoriaId": "materiales",
+      "categoriaNombre": "Materiales",
+      "fecha": "30 Oct 2026",
+      "tiempoLectura": "4 min de lectura",
+      "esDemostracion": true,
+      "resumen": "Conoce las diferencias mecánicas, límites de fluencia y aplicaciones prácticas entre el clásico acero al carbono A36 y el acero estructural de alta resistencia A572.",
+      "imagen": "assets/images/blog-aceros.jpg",
+      "contenidoHtml": "<p>En el diseño y habilitación de estructuras metálicas, la elección correcta del acero repercute directamente en el peso final de la obra, la facilidad de soldabilidad y los costos de materiales.</p><h3>1. Acero ASTM A36: La base de la construcción metálica</h3><p>El acero ASTM A36 es un acero estructural al carbono con un límite de fluencia mínimo de 250 MPa (36,000 psi). Es ampliamente valorado en la industria por su extraordinaria ductilidad, excelente soldabilidad y facilidad de conformado y corte tanto en frío como en caliente.</p><p>Es el material predilecto para placas base, cartelas de conexión secundaria, atiesadores y perfiles de uso general donde las solicitaciones de esfuerzo no exigen perfiles de pared delgada.</p><h3>2. Acero ASTM A572 Grado 50: Mayor resistencia con menor espesor</h3><p>Por otro lado, el acero ASTM A572 Gr. 50 es un acero de alta resistencia y baja aleación (HSLA) que alcanza un límite de fluencia de 345 MPa (50,000 psi). Esto permite reducir hasta un 25% el peso de vigas y columnas respecto al A36 manteniendo la misma capacidad portante.</p><p>Resulta indispensable en vigas carril de puentes grúa, pórticos de grandes luces y placas de empalme viga-columna sometidas a momento sísmico.</p><h3>Recomendación técnica Ayala</h3><p>Para la mayoría de placas de asiento y cartelas estándar, el ASTM A36 ofrece la mejor relación costo-rendimiento y mínimo riesgo de distorsión térmica durante el corte por oxicorte o plasma.</p>"
+    },
+    {
+      "id": "oxicorte-vs-plasma-cnc-placas",
+      "titulo": "Oxicorte vs. Plasma CNC en Placas Industriales: Comparativa de Tolerancias y Acabado Térmico",
+      "slug": "oxicorte-vs-plasma-cnc-placas",
+      "categoriaId": "procesos",
+      "categoriaNombre": "Procesos",
+      "fecha": "24 Oct 2026",
+      "tiempoLectura": "5 min de lectura",
+      "esDemostracion": true,
+      "resumen": "Análisis comparativo de dos tecnologías clave en el taller metalmecánico: rangos de espesor óptimos, velocidad de corte y calidad en los bordes de la placa.",
+      "imagen": "assets/images/blog-corte.jpg",
+      "contenidoHtml": "<p>Tanto el oxicorte como el plasma CNC son tecnologías indispensables en un taller de corte y habilitado de acero. Conocer cuál utilizar para cada tipo de pieza optimiza la precisión y reduce el trabajo posterior de pulido o maquinado.</p><h3>Plasma CNC de Alta Definición</h3><p>El plasma utiliza un chorro de gas ionizado a altísima temperatura para fundir el metal y expulsarlo rápidamente. Sus ventajas principales destacan en espesores delgados y medios (desde 1.5 mm hasta 32 mm):</p><ul><li>Bordes limpios con escasa o nula escoria dross.</li><li>Menor zona afectada por el calor (ZAC), evitando el endurecimiento excesivo de los cantos.</li><li>Velocidad de avance superior, ideal para perforaciones de diámetros reducidos.</li></ul><h3>Oxicorte Tradicional y Pantográfico</h3><p>El oxicorte se basa en la reacción exotérmica del oxígeno puro con el acero precalentado. Es la técnica por excelencia para placas de gran espesor (desde 1/2\" hasta más de 150 mm):</p><ul><li>Capacidad inigualable en espesores pesados para bridas y bloques mecánicos.</li><li>Cortes perfectamente rectos a 90 grados a lo largo de todo el espesor.</li><li>Mayor tolerancia al óxido o cascarilla superficial de laminación.</li></ul>"
+    },
+    {
+      "id": "recomendaciones-diseno-placas-base-anclaje",
+      "titulo": "Recomendaciones Clave para Diseñar y Acotar Placas Base de Anclaje",
+      "slug": "recomendaciones-diseno-placas-base-anclaje",
+      "categoriaId": "consejos",
+      "categoriaNombre": "Consejos",
+      "fecha": "18 Oct 2026",
+      "tiempoLectura": "3 min de lectura",
+      "esDemostracion": true,
+      "resumen": "Consejos prácticos desde la experiencia de taller para evitar interferencias, facilitar el montaje en obra y elegir el diámetro adecuado de barrenos.",
+      "imagen": "assets/images/blog-placas.jpg",
+      "contenidoHtml": "<p>Uno de los problemas más frecuentes en obra es el desalineamiento entre los pernos embebidos en el concreto y los agujeros de la placa base de la columna de acero. Una adecuada previsión en plano ahorra costosas horas de rectificación.</p><h3>1. Diámetro holgado o agujeros rasgados</h3><p>El estándar de diseño AISC recomienda que los agujeros para pernos de anclaje no sean del tamaño nominal del perno, sino que cuenten con una holgura generosa (oversized holes) o ranuras cortas (short slots) para absorber los márgenes de vaciado del concreto.</p><h3>2. Espesor suficiente para evitar alabeo</h3><p>Al soldar la columna sobre la placa base, el calor concentrado tiende a combar la placa si el espesor es insuficiente. Siempre es preferible un espesor mínimo de 1/2\" o 5/8\" en columnas principales, o el uso de atiesadores triangulares en el perímetro.</p><h3>3. Distancia mínima al borde</h3><p>Para evitar desgarros en el borde de la placa durante la tensión del perno, mantén una distancia mínima al borde de 1.5 a 2 veces el diámetro del perno de anclaje.</p>"
+    }
+  ]
+}

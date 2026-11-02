@@ -1,0 +1,20 @@
+{
+  "marcasConfirmadas": false,
+  "titulo": "Marcas y Aliados Comerciales",
+  "descripcion": "Corporación Ayala S.A.C. procesa y comercializa materiales e insumos de calidad industrial certificada. Este módulo está estructurado para vincular directamente las marcas de acero, consumibles y equipos con las que la empresa opera una vez sean homologadas.",
+  "estadoVacio": {
+    "titulo": "Marcas en Proceso de Homologación",
+    "mensaje": "Actualmente nos encontramos actualizando el registro de marcas comerciales e insumos homologados para esta sección. Si deseas consultar sobre procedencia de aceros, certificados de calidad de molino o consumibles específicos para tu proyecto, contáctanos directamente.",
+    "botonContacto": "Consultar por materiales y procedencia"
+  },
+  "marcas": [
+    {
+      "id": "marca-ejemplo-1",
+      "nombre": "Aceros Estructurales Certificados",
+      "logo": "assets/images/marca-placeholder.svg",
+      "descripcion": "Acero laminado bajo normas ASTM A36 y A572",
+      "productosAsociados": ["prod-placa-base-a36", "prod-cartela-tijeral"],
+      "activo": false
+    }
+  ]
+}

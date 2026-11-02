@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corporación Ayala S.A.C. | Cortes Metálicos, Placas Industriales y Estructuras</title>
+  <meta name="description" content="Soluciones integrales en acero: cortes metálicos por plasma y oxicorte, placas industriales ASTM A36, soldadura calificada y fabricación de estructuras metálicas en Lima, Perú.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Montserrat (Encabezados industriales) e Inter (Lectura limpia) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Estilos del Sistema Corporativo Ayala -->
+  <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+
+  <!-- Accesibilidad: Enlace directo al contenido -->
+  <a href="#inicio" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ========================================================================
+       BARRA SUPERIOR CORPORATIVA (TOP BAR)
+       ======================================================================== -->
+  <aside class="top-bar" aria-label="Información corporativa rápida">
+    <div class="container top-bar-container">
+      <div class="top-bar-info">
+        <div class="top-bar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>Telf: <a href="tel:+5114941053" data-bind="empresa-telefono">(01) 494-1053</a> &bull; Cel: <a href="tel:+51994100704">994 100 704</a></span>
+        </div>
+        <div class="top-bar-item top-bar-hide-mobile">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span data-bind="empresa-horario">Lun - Vie: 8:00 AM - 6:00 PM</span>
+        </div>
+        <div class="top-bar-item top-bar-hide-mobile">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span data-bind="empresa-direccion">Mz. B Lt. 11 Urb. Parcela Semirústica Zavaleta - Ate, Lima</span>
+        </div>
+      </div>
+      <div class="top-bar-ruc" data-bind="empresa-ruc">RUC: 20535988111</div>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       ENCABEZADO PRINCIPAL (LOGO + BUSCADOR FUNCIONAL + ACCIÓN DIRECTA)
+       ======================================================================== -->
+  <header class="main-header" role="banner">
+    <div class="container header-container">
+      <!-- Logo Corporativo -->
+      <a href="#inicio" class="brand-logo" aria-label="Corporación Ayala S.A.C. - Inicio">
+        <img src="assets/images/logo.svg" alt="Corporación Ayala S.A.C. - Logo Oficial">
+      </a>
+
+      <!-- Acciones en Cabecera (Botón WhatsApp y Botón Hamburguesa) -->
+      <div class="header-actions">
+        <a href="https://wa.me/51994100704" class="btn-header-wa" data-bind="whatsapp-link" aria-label="Consultar por WhatsApp">
+          <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/></svg>
+          <span class="btn-wa-label">Consultar por WhatsApp</span>
+        </a>
+
+        <!-- Botón Hamburguesa Accesible -->
+        <button type="button" class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <!-- Buscador Funcional de Productos -->
+      <div class="header-search-wrap">
+        <form class="header-search-form" id="header-search-form" role="search" aria-label="Buscador de productos en catálogo">
+          <label for="header-search-input" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0);">Buscar placas o productos</label>
+          <input type="text" id="header-search-input" class="search-input" placeholder="Buscar por placa, norma ASTM, espesor..." autocomplete="off">
+          <button type="submit" class="search-submit-btn" aria-label="Ejecutar búsqueda">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </button>
+        </form>
+        <!-- Menú desplegable de sugerencias en vivo -->
+        <div id="search-results-dropdown" class="search-results-dropdown" role="listbox"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       BARRA DE NAVEGACIÓN DESKTOP (ORDEN ESTRICTO REQUERIDO)
+       1. Inicio
+       2. Catálogo
+       3. Marcas
+       4. Soporte técnico
+       5. Nosotros
+       6. Sucursales
+       7. Blog
+       8. Contacto
+       ======================================================================== -->
+  <nav class="nav-bar nav-bar-desktop" role="navigation" aria-label="Menú principal de escritorio">
+    <div class="container">
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li class="nav-item"><a href="#catalogo" class="nav-link">Catálogo</a></li>
+        <li class="nav-item"><a href="#marcas" class="nav-link">Marcas</a></li>
+        <li class="nav-item"><a href="#soporte" class="nav-link">Soporte técnico</a></li>
+        <li class="nav-item"><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li class="nav-item"><a href="#sucursales" class="nav-link">Sucursales</a></li>
+        <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+        <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========================================================================
+       MENÚ LATERAL RESPONSIVO MÓVIL (OFF-CANVAS DRAWER)
+       ======================================================================== -->
+  <div id="mobile-nav-backdrop" class="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Menú de navegación móvil" aria-hidden="true">
+    <div class="mobile-drawer-header">
+      <img src="assets/images/logo-white.svg" alt="Corporación Ayala S.A.C." class="mobile-drawer-logo">
+      <button type="button" id="mobile-drawer-close" class="mobile-drawer-close" aria-label="Cerrar menú de navegación">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div class="mobile-drawer-body">
+      <nav class="mobile-nav-links" aria-label="Enlaces de navegación móvil">
+        <a href="#inicio" class="mobile-nav-link active">
+          <span class="m-num">01</span>
+          <span class="m-text">Inicio</span>
+        </a>
+        <a href="#catalogo" class="mobile-nav-link">
+          <span class="m-num">02</span>
+          <span class="m-text">Catálogo</span>
+        </a>
+        <a href="#marcas" class="mobile-nav-link">
+          <span class="m-num">03</span>
+          <span class="m-text">Marcas</span>
+        </a>
+        <a href="#soporte" class="mobile-nav-link">
+          <span class="m-num">04</span>
+          <span class="m-text">Soporte técnico</span>
+        </a>
+        <a href="#nosotros" class="mobile-nav-link">
+          <span class="m-num">05</span>
+          <span class="m-text">Nosotros</span>
+        </a>
+        <a href="#sucursales" class="mobile-nav-link">
+          <span class="m-num">06</span>
+          <span class="m-text">Sucursales</span>
+        </a>
+        <a href="#blog" class="mobile-nav-link">
+          <span class="m-num">07</span>
+          <span class="m-text">Blog</span>
+        </a>
+        <a href="#contacto" class="mobile-nav-link">
+          <span class="m-num">08</span>
+          <span class="m-text">Contacto</span>
+        </a>
+      </nav>
+
+      <div class="mobile-drawer-footer">
+        <a href="https://wa.me/51994100704" target="_blank" data-bind="whatsapp-link" class="btn btn-whatsapp mobile-drawer-wa">
+          <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/></svg>
+          <span>WhatsApp: 994 100 704</span>
+        </a>
+        <div class="mobile-drawer-info">
+          <div><strong>Telf:</strong> (01) 494-1053 | Cel: 981 073 892</div>
+          <div><strong>Taller:</strong> Mz. B Lt. 11 Urb. Parcela Semirústica Zavaleta - Ate, Lima</div>
+          <div><strong>Horario:</strong> Lun - Vie: 8:00 AM - 6:00 PM | Sáb: 8:00 AM - 1:00 PM</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main id="main-content">
+
+    <!-- ======================================================================
+         MÓDULO 1: INICIO (HOME)
+         ====================================================================== -->
+    <section id="inicio" class="hero-section" aria-labelledby="hero-title">
+      <div class="hero-background">
+        <img src="assets/images/hero-industrial.jpg" alt="Taller metalmecánico de Corporación Ayala S.A.C. con corte industrial">
+      </div>
+      <div class="hero-gradient-overlay"></div>
+      
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <svg style="width: 14px; height: 14px; fill: var(--ayala-red);" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>Habilitación y Fabricación Metalmecánica en Lima</span>
+          </div>
+
+          <!-- Título requerido -->
+          <h1 id="hero-title" class="hero-title">
+            Soluciones en acero para tus <span>proyectos industriales</span>
+          </h1>
+
+          <!-- Presentación breve de la empresa -->
+          <p class="hero-description">
+            En <strong>Corporación Ayala S.A.C.</strong> transformamos planos de ingeniería en piezas estructurales de máxima precisión. Especialistas en corte térmico y mecánico, placas industriales ASTM A36, soldadura calificada y armado de estructuras metálicas.
+          </p>
+
+          <!-- Botones requeridos -->
+          <div class="hero-buttons">
+            <a href="#catalogo" class="btn btn-primary">Explorar catálogo</a>
+            <a href="#contacto" class="btn btn-outline-white">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Franja de Capacidades Industriales -->
+    <section class="strip-highlights" aria-label="Ventajas operativas de Ayala">
+      <div class="container">
+        <div class="strip-grid">
+          <div class="strip-item">
+            <div class="strip-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+            </div>
+            <div>
+              <div class="strip-title">Corte a Medida</div>
+              <div class="strip-text">Plasma CNC HD y oxicorte pesado</div>
+            </div>
+          </div>
+          <div class="strip-item">
+            <div class="strip-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <div>
+              <div class="strip-title">Tolerancias Exactas</div>
+              <div class="strip-text">Lectura directa de archivos DWG / DXF</div>
+            </div>
+          </div>
+          <div class="strip-item">
+            <div class="strip-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div>
+              <div class="strip-title">Acero ASTM A36 / A572</div>
+              <div class="strip-text">Materiales estructurales garantizados</div>
+            </div>
+          </div>
+          <div class="strip-item">
+            <div class="strip-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div>
+              <div class="strip-title">Soldadura Calificada</div>
+              <div class="strip-text">Normas y procedimientos AWS D1.1</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloques de Servicios (Cortes, Placas, Soldadura, Estructuras) -->
+    <section class="services-section" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pretitle">Líneas de Producción y Taller</span>
+          <h2 id="services-heading" class="section-title">Especialidades Metalmecánicas</h2>
+          <p class="section-desc">Atendemos proyectos de ingeniería civil, minería, galpones y edificaciones con maquinaria propia y personal calificado.</p>
+          <div class="divider-red"></div>
+        </div>
+        <!-- Render dinámico desde data/servicios.json -->
+        <div class="services-grid" id="services-grid"></div>
+      </div>
+    </section>
+
+    <!-- Productos Destacados en Inicio -->
+    <section class="featured-products-section" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pretitle">Catálogo de Piezas Estructurales</span>
+          <h2 id="featured-heading" class="section-title">Placas Industriales Destacadas</h2>
+          <p class="section-desc">Habilitadas y perforadas según plano con altos estándares de precisión en taller.</p>
+          <div class="divider-red"></div>
+        </div>
+        <div class="products-grid" id="featured-products-grid"></div>
+        <div style="text-align: center; margin-top: 40px;">
+          <a href="#catalogo" class="btn btn-secondary">Ver Catálogo Completo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería Breve de Trabajos -->
+    <section class="gallery-section" aria-labelledby="gallery-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pretitle">Procesos en Taller y Montaje</span>
+          <h2 id="gallery-heading" class="section-title">Galería de Trabajos Industriales</h2>
+          <p class="section-desc">Muestras técnicas de corte térmico, preparación de placas base y ensamble de estructuras.</p>
+          <div class="divider-red"></div>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="assets/images/servicio-cortes.jpg" alt="Mesa de corte plasma CNC" loading="lazy">
+            <div class="gallery-caption">
+              <span class="badge-referencia" style="margin-bottom: 6px;">Referencia Técnica</span>
+              <h4>Corte Térmico CNC HD</h4>
+              <p>Precisión en bordes para planchas de acero estructural.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/servicio-placas.jpg" alt="Placas base y cartelas apiladas" loading="lazy">
+            <div class="gallery-caption">
+              <span class="badge-referencia" style="margin-bottom: 6px;">Referencia Técnica</span>
+              <h4>Habilitado de Placas Base</h4>
+              <p>Perforado exacto para pernos de anclaje de columnas.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/servicio-estructuras.jpg" alt="Armado de tijerales y vigas metálicas" loading="lazy">
+            <div class="gallery-caption">
+              <span class="badge-referencia" style="margin-bottom: 6px;">Referencia Técnica</span>
+              <h4>Fabricación Estructural</h4>
+              <p>Ensamble de reticulados y pórticos para naves industriales.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vista Previa del Blog en Inicio -->
+    <section class="blog-preview-section" aria-labelledby="home-blog-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pretitle">Actualidad y Conocimiento Técnico</span>
+          <h2 id="home-blog-heading" class="section-title">Artículos de Interés Industrial</h2>
+          <p class="section-desc">Guías y consejos prácticos sobre aceros, procesos térmicos y diseño de uniones metálicas.</p>
+          <div class="divider-red"></div>
+        </div>
+        <div class="blog-grid" id="home-blog-grid"></div>
+      </div>
+    </section>
+
+    <!-- Bloque Final de Contacto en Inicio -->
+    <section class="home-contact-block" aria-label="Llamado a la acción rápido">
+      <div class="container">
+        <div class="home-contact-box">
+          <div class="home-contact-text">
+            <h2>¿Tienes un plano o requerimiento de corte listo?</h2>
+            <p>Envíanos tus especificaciones en DWG, DXF o PDF para brindarte asesoría técnica inmediata.</p>
+          </div>
+          <div class="home-contact-btns">
+            <a href="https://wa.me/51987654321" target="_blank" data-bind="whatsapp-link" class="btn btn-whatsapp">
+              <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/></svg>
+              Escribir por WhatsApp
+            </a>
+            <a href="#contacto" class="btn btn-outline-white">Ir a Contacto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         MÓDULO 2: CATÁLOGO COMPLETO
+         ====================================================================== -->
+    <section id="catalogo" class="catalog-page" aria-labelledby="catalog-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pretitle">Líneas de Suministro Industrial</span>
+          <h2 id="catalog-heading" class="section-title">Catálogo de Productos</h2>
+          <p class="section-desc">Explora nuestros productos por categoría técnica. Selecciona un producto para consultar detalles o enviar una consulta directa por WhatsApp.</p>
+          <div class="divider-red"></div>
+        </div>
+
+        <!-- Filtros funcionales y buscador integrado -->
+        <div class="catalog-controls">
+          <div class="category-filter-pills" id="category-filter-pills"></div>
+          <div class="catalog-search-box">
+            <svg class="catalog-search-icon" viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="catalog-search-input" class="catalog-search-input" placeholder="Filtrar en catálogo...">
+          </div>
+        </div>
+
+        <!-- Rejilla de Productos -->
+        <div class="products-grid" id="catalog-products-grid"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         MÓDULO 3: MARCAS
+         ====================================================================== -->
+    <section id="marcas" class="brands-page" aria-labelledby="brands-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pretitle">Procedencia y Homologación</span>
+          <h2 id="brands-heading" class="section-title">Marcas y Proveedores</h2>
+          <p class="section-desc">Trabajamos con aceros y consumibles que garantizan el cumplimiento de normas estructurales internacionales.</p>
+          <div class="divider-red"></div>
+        </div>
+
+        <div id="brands-container"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         MÓDULO 4: SOPORTE TÉCNICO
+         ====================================================================== -->
+    <section id="soporte" class="support-page" aria-labelledby="support-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pretitle">Guía de Especificación y Planos</span>
+          <h2 id="support-heading" class="section-title">Soporte Técnico Especializado</h2>
+          <p class="section-desc">Te orientamos paso a paso para formular tus requerimientos de corte y despejar las dudas técnicas más habituales.</p>
+          <div class="divider-red"></div>
+        </div>
+
+        <!-- 4 Pasos para enviar planos -->
+        <div class="support-steps-grid" id="support-steps-grid"></div>
+
+        <!-- Acordeón de Preguntas Frecuentes -->
+        <div class="section-header" style="margin-top: 50px; margin-bottom: 30px;">
+          <h3 style="font-family: var(--font-heading); color: var(--ayala-navy); font-size: 1.5rem; font-weight: 800;">Preguntas Frecuentes Técnicas</h3>
+        </div>
+        <div class="faq-wrap" id="faq-accordion"></div>
+
+        <!-- Callout de soporte -->
+        <div style="background: var(--ayala-white); border: 1px solid var(--ayala-steel-border); border-radius: var(--radius-md); padding: 30px; text-align: center; max-width: 700px; margin: 40px auto 0;">
+          <h4 style="font-family: var(--font-heading); color: var(--ayala-navy); font-size: 1.25rem; font-weight: 800; margin-bottom: 8px;">¿Necesitas revisión previa de un archivo CAD?</h4>
+          <p style="color: var(--ayala-text-muted); font-size: 0.9375rem; margin-bottom: 20px;">Nuestro equipo puede verificar la legibilidad y escala de tus planos antes de proceder a la habilitación.</p>
+          <a href="https://wa.me/51987654321" target="_blank" data-bind="whatsapp-link" class="btn btn-whatsapp">
+            Consultar con el Área Técnica vía WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         MÓDULO 5: NOSOTROS
+         ====================================================================== -->
+    <section id="nosotros" class="about-page" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pretitle">Identidad y Trayectoria</span>
+          <h2 id="about-heading" class="section-title">Nosotros</h2>
+          <p class="section-desc">Conoce la historia, el método de trabajo y el compromiso de calidad de Corporación Ayala S.A.C.</p>
+          <div class="divider-red"></div>
+        </div>
+
+        <div class="about-intro-grid">
+          <div class="about-intro-text">
+            <h3 style="font-family: var(--font-heading); font-size: 1.625rem; font-weight: 800; color: var(--ayala-navy); margin-bottom: 16px;">
+              Ingeniería, compromiso y precisión en cada corte de acero
+            </h3>
+            <p id="nosotros-parrafo-1"></p>
+            <p id="nosotros-parrafo-2"></p>
+            
+            <div class="values-grid" id="nosotros-valores-grid"></div>
+          </div>
+          <div class="about-photos-grid" id="nosotros-fotos-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         MÓDULO 6: SUCURSALES / UBICACIÓN
+         ====================================================================== -->
+    <section id="sucursales" class="branches-page" aria-labelledby="branches-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pretitle">Presencia y Atención</span>
+          <h2 id="branches-heading" class="section-title">Ubicación y Sede</h2>
+          <p class="section-desc">Taller metalmecánico y oficina comercial estratégicamente ubicados en Lima Este.</p>
+          <div class="divider-red"></div>
+        </div>
+
+        <div id="branches-container"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         MÓDULO 7: BLOG
+         ====================================================================== -->
+    <section id="blog" class="blog-page" aria-labelledby="blog-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pretitle">Información Técnica del Sector</span>
+          <h2 id="blog-heading" class="section-title">Blog Industrial</h2>
+          <p class="section-desc">Artículos informativos sobre grados de acero, métodos de corte y buenas prácticas constructivas. Contenido de demostración preparado para la empresa.</p>
+          <div class="divider-red"></div>
+        </div>
+
+        <div class="blog-grid" id="full-blog-grid"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         MÓDULO 8: CONTACTO
+         ====================================================================== -->
+    <section id="contacto" class="contact-page" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pretitle">Canales de Atención Directa</span>
+          <h2 id="contact-heading" class="section-title">Contacto Comercial y Técnico</h2>
+          <p class="section-desc">Ponte en contacto con nuestros especialistas para resolver tus consultas de corte de placas, soldadura y estructuras.</p>
+          <div class="divider-red"></div>
+        </div>
+
+        <div class="contact-layout-grid">
+          <!-- Información y Canales -->
+          <div class="contact-info-panel">
+            <h3 class="contact-info-title">Corporación Ayala S.A.C.</h3>
+            <p class="contact-info-desc">Puedes comunicarte a través de nuestros canales oficiales o preparar tu mensaje para enviarlo directamente vía WhatsApp.</p>
+
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <strong>Teléfono Fijo:</strong>
+                <a href="tel:+5114941053">(01) 494-1053</a>
+              </div>
+            </div>
+
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+              </div>
+              <div>
+                <strong>Celulares de Atención / WhatsApp:</strong>
+                <div style="margin-top: 2px;">
+                  <a href="tel:+51994100704" style="color: #fff; font-weight: 600;">994 100 704</a> &nbsp;|&nbsp; 
+                  <a href="tel:+51981073892" style="color: #fff; font-weight: 600;">981 073 892</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <strong>Correo Electrónico:</strong>
+                <a href="mailto:contacto@corporacionayalasac.com">contacto@corporacionayalasac.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <strong>Horario de Operaciones:</strong>
+                <span data-bind="empresa-horario">Lun - Vie: 8:00 AM - 6:00 PM | Sáb: 8:00 AM - 1:00 PM</span>
+              </div>
+            </div>
+
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <strong>Taller y Dirección Fiscal:</strong>
+                <span data-bind="empresa-direccion">Mz. B, Lote 11, Urb. Parcela Semirústica Zavaleta, Ate, Lima, Perú</span>
+              </div>
+            </div>
+
+            <div style="margin-top: 32px; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+              <a href="https://wa.me/51987654321" target="_blank" data-bind="whatsapp-link" class="btn btn-whatsapp" style="width: 100%;">
+                <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/></svg>
+                Atención Inmediata por WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Formulario Sencillo y Transparente -->
+          <div class="contact-form-panel">
+            <h3 style="font-family: var(--font-heading); color: var(--ayala-navy); font-size: 1.375rem; font-weight: 800; margin-bottom: 8px;">
+              Formular Consulta
+            </h3>
+            <p style="color: var(--ayala-text-muted); font-size: 0.875rem; margin-bottom: 24px;">
+              Completa tus datos para estructurar tu requerimiento. Podrás copiarlo o enviarlo con un clic por WhatsApp.
+            </p>
+
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="c-name" class="form-label">Nombre o Razón Social *</label>
+                <input type="text" id="c-name" class="form-control" placeholder="Ej: Ing. Carlos Pérez / Metalmecánica del Sur" required>
+              </div>
+
+              <div class="form-group">
+                <label for="c-contact" class="form-label">Teléfono o Correo de Contacto *</label>
+                <input type="text" id="c-contact" class="form-control" placeholder="Ej: 999 888 777 o carlos@empresa.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="c-service" class="form-label">Servicio o Producto de Interés</label>
+                <select id="c-service" class="form-control">
+                  <option value="Placas Industriales y Anclajes">Placas Industriales y Anclajes</option>
+                  <option value="Cortes Metálicos (Plasma / Oxicorte)">Cortes Metálicos (Plasma / Oxicorte)</option>
+                  <option value="Soldadura Especializada">Soldadura Especializada</option>
+                  <option value="Estructuras Metálicas">Estructuras Metálicas</option>
+                  <option value="Otra consulta técnica">Otra consulta técnica</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="c-message" class="form-label">Mensaje o Requerimiento Técnico *</label>
+                <textarea id="c-message" class="form-control" placeholder="Indica espesores, tipo de acero (A36), dimensiones o si cuentas con archivo de planos..." required></textarea>
+              </div>
+
+              <div class="contact-submit-row">
+                <button type="submit" class="btn btn-primary" style="flex: 1;">
+                  Preparar Consulta
+                </button>
+              </div>
+            </form>
+
+            <!-- Área de Resultados y Acciones Reales -->
+            <div id="contact-action-result" class="form-action-result">
+              <strong style="display: block; font-size: 0.875rem; color: var(--ayala-navy); margin-bottom: 8px;">
+                Vista previa de tu consulta:
+              </strong>
+              <div id="action-preview-text" class="action-preview-text"></div>
+              <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <button type="button" id="btn-wa-inquiry" class="btn btn-whatsapp" style="flex: 1;">
+                  Continuar por WhatsApp
+                </button>
+                <button type="button" id="btn-copy-inquiry" class="btn btn-secondary">
+                  Copiar Mensaje
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       PIE DE PÁGINA (FOOTER)
+       ======================================================================== -->
+  <footer class="main-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Columna Marca -->
+        <div class="footer-brand">
+          <img src="assets/images/logo-white.svg" alt="Corporación Ayala S.A.C." style="height: 52px; width: auto;">
+          <p>Especialistas en habilitación de acero estructural, cortes a medida por plasma HD y oxicorte, fabricación de placas industriales y armado de estructuras metálicas.</p>
+          <div style="font-size: 0.8125rem; color: var(--ayala-steel-light);" data-bind="empresa-ruc">RUC: 20535988111</div>
+        </div>
+
+        <!-- Columna Menú Principal -->
+        <div>
+          <h4 class="footer-title">Navegación</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#marcas">Marcas</a></li>
+            <li><a href="#soporte">Soporte técnico</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#sucursales">Sucursales</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna Servicios -->
+        <div>
+          <h4 class="footer-title">Especialidades</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio" onclick="App.openServiceModal('cortes-metalicos')">Cortes Metálicos</a></li>
+            <li><a href="#inicio" onclick="App.openServiceModal('placas-industriales')">Placas Industriales</a></li>
+            <li><a href="#inicio" onclick="App.openServiceModal('soldadura')">Soldadura Calificada</a></li>
+            <li><a href="#inicio" onclick="App.openServiceModal('estructuras-metalicas')">Estructuras Metálicas</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna Ubicación y Horarios -->
+        <div>
+          <h4 class="footer-title">Atención en Taller</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Mz. B, Lote 11, Urb. Parcela Semirústica Zavaleta, Ate, Lima</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span data-bind="empresa-horario">Lun - Vie: 8:00 AM - 6:00 PM</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>Telf: <a href="tel:+5114941053" style="color: var(--ayala-steel-light);">(01) 494-1053</a> | Cel: <a href="tel:+51994100704" style="color: var(--ayala-steel-light);">994 100 704</a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Corporación Ayala S.A.C. Todos los derechos reservados. | RUC 20535988111</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       BOTÓN FLOTANTE DE WHATSAPP (ACTIVO SEGÚN CONFIGURACIÓN)
+       ======================================================================== -->
+  <a href="https://wa.me/51987654321" id="floating-whatsapp" class="floating-whatsapp" data-bind="whatsapp-link" aria-label="Escribir por WhatsApp a Corporación Ayala S.A.C.">
+    <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/></svg>
+  </a>
+
+  <!-- ========================================================================
+       MODAL GENÉRICO ACCESIBLE (PRODUCTOS, SERVICIOS, BLOG)
+       ======================================================================== -->
+  <div id="generic-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-container">
+      <button type="button" id="modal-close-btn" class="modal-close-btn" aria-label="Cerrar ventana emergente">
+        <svg style="width: 18px; height: 18px; stroke: currentColor;" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div id="generic-modal-content" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <!-- 1. Capa centralizada e independiente de datos -->
+  <script src="js/data-service.js"></script>
+  <!-- 2. Lógica de interfaz y controladores de la aplicación -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>

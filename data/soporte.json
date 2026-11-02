@@ -1,0 +1,63 @@
+{
+  "titulo": "Soporte Técnico y Asesoría",
+  "subtitulo": "Orientación para la preparación y envío de requerimientos técnicos de corte y estructuras metálicas.",
+  "guiaEnvioPlanos": {
+    "titulo": "¿Cómo enviar tus planos o especificaciones técnicas?",
+    "descripcion": "Para brindarte una respuesta precisa y rápida, recomendamos seguir estos sencillos pasos al preparar tu consulta técnica:",
+    "pasos": [
+      {
+        "numero": "01",
+        "titulo": "Identifica el tipo de material y espesor",
+        "detalle": "Especifica el grado de acero (ej. ASTM A36, acero inoxidable, LAC) y el espesor requerido en milímetros o pulgadas (ej. 3/8\", 1/2\", 16 mm)."
+      },
+      {
+        "numero": "02",
+        "titulo": "Prepara tus archivos técnicos",
+        "detalle": "Aceptamos archivos vectoriales CAD (.DWG, .DXF en escala 1:1), modelos en PDF con cotas y radios legibles, o croquis manuales claros con todas sus dimensiones."
+      },
+      {
+        "numero": "03",
+        "titulo": "Indica cantidades y detalles de mecanizado",
+        "detalle": "Señala la cantidad exacta de piezas por ítem, diámetros de perforaciones, si requiere chaflanes, avellanados o biseles para soldadura."
+      },
+      {
+        "numero": "04",
+        "titulo": "Envía tu requerimiento por nuestros canales",
+        "detalle": "Puedes adjuntar tus especificaciones por correo electrónico o escribirnos vía WhatsApp para una revisión técnica preliminar."
+      }
+    ],
+    "formatosAceptados": ["AutoCAD (.DWG, .DXF)", "Documentos PDF Acotados", "Imágenes y Croquis (JPG, PNG)", "Planillas de Despiece (Excel)"]
+  },
+  "preguntasFrecuentes": [
+    {
+      "id": "faq-1",
+      "pregunta": "¿Qué información mínima debo proporcionar para una consulta de corte de placas?",
+      "respuesta": "Es necesario indicar el espesor de la plancha, las dimensiones exteriores de la pieza, el tipo de acero requerido (por ejemplo, ASTM A36) y la cantidad de unidades. Si la placa cuenta con perforaciones, se debe incluir un plano o croquis acotado que muestre la distancia entre centros de los agujeros."
+    },
+    {
+      "id": "faq-2",
+      "pregunta": "¿Realizan servicio de maquila si el cliente suministra su propio acero?",
+      "respuesta": "Sí, podemos cotizar el servicio exclusivo de corte y perforado (maquila) utilizando planchas provistas por el cliente, o bien suministrar el material completo habilitado según la conveniencia del proyecto."
+    },
+    {
+      "id": "faq-3",
+      "pregunta": "¿Cuáles son las tolerancias de corte dimensionales que manejan?",
+      "respuesta": "En cortes por plasma CNC de alta definición mantenemos tolerancias de ±0.8 mm a ±1.5 mm, dependiendo del espesor del material. En oxicorte para espesores gruesos, las tolerancias estándar se ajustan a las normas industriales de habilitación estructural."
+    },
+    {
+      "id": "faq-4",
+      "pregunta": "¿Puedo solicitar placas con perforaciones ovaladas o rasgadas?",
+      "respuesta": "Sí, mediante programación CNC cortamos perforaciones ranuradas (slot holes) tanto estándar como largas, con el radio exacto para pernos de anclaje que requieran margen de desplazamiento o montaje regulable."
+    },
+    {
+      "id": "faq-5",
+      "pregunta": "¿Qué procesos de soldadura emplean en la fabricación de ensambles?",
+      "respuesta": "Contamos con procesos de soldadura por arco con electrodo revestido (SMAW) y soldadura semiautomática con alambre continuo bajo protección gaseosa (GMAW / MIG), ejecutados por personal técnico con amplia experiencia en uniones estructurales."
+    },
+    {
+      "id": "faq-6",
+      "pregunta": "¿Cómo coordino la entrega o recojo de los trabajos terminados?",
+      "respuesta": "Los pedidos habilitados pueden recogerse directamente en nuestro taller ubicado en Ate, Lima, o coordinarse para despacho y transporte a obra según el volumen y condiciones pactadas en la cotización."
+    }
+  ]
+}

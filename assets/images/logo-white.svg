@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 76" width="460" height="76">
+  <defs>
+    <linearGradient id="ayalaRedGradW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF334B" />
+      <stop offset="100%" stop-color="#E00820" />
+    </linearGradient>
+  </defs>
+
+  <!-- ISOTIPO: Para fondos oscuros -->
+  <g transform="translate(4, 3)">
+    <path d="M 35 4 L 62 66 L 46 66 L 39 49 L 31 49 L 24 66 L 8 66 Z" fill="#FFFFFF" />
+    <path d="M 35 17 L 43 37 L 27 37 Z" fill="#06275E" />
+    <path d="M 46 12 L 67 60 L 59 66 L 40 22 Z" fill="url(#ayalaRedGradW)" />
+    <circle cx="35" cy="58" r="3.2" fill="#E00820" />
+    <circle cx="35" cy="58" r="1.5" fill="#FFFFFF" />
+  </g>
+
+  <!-- TIPOGRAFÍA -->
+  <g transform="translate(86, 0)">
+    <text x="0" y="27" font-family="'Montserrat', 'Barlow', 'Arial Black', sans-serif" font-size="14" font-weight="700" letter-spacing="3.5" fill="#A5B3BF">CORPORACIÓN</text>
+    <text x="0" y="53" font-family="'Montserrat', 'Arial Black', sans-serif" font-size="28" font-weight="900" letter-spacing="2" fill="#FFFFFF">AYALA <tspan fill="#FF334B" font-size="20" font-weight="800">S.A.C.</tspan></text>
+    <text x="1" y="69" font-family="'Inter', 'Segoe UI', sans-serif" font-size="8.8" font-weight="600" letter-spacing="1.2" fill="#A5B3BF">CORTES METÁLICOS • PLACAS INDUSTRIALES • SOLDADURA</text>
+  </g>
+</svg>
